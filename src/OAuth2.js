@@ -21,7 +21,7 @@ class OAuth2 {
         url.searchParams.append("response_type", responseType);
         url.searchParams.append("state", state);
 
-        return url;
+        return url.href;
 
     }
 
